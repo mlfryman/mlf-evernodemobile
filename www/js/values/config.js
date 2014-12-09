@@ -2,8 +2,5 @@
   'use strict';
 
   angular.module('starter')
-
-  .controller('DashCtrl', function($scope){
-  });
-
+  .value('origin', 'http://localhost:8080');
 })();

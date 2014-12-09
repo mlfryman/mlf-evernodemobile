@@ -1,6 +1,7 @@
 {
     "jscodehints.detectedExclusions": [
         "/Users/Melanie/Documents/Code/mlf-evernodemobile/platforms/ios/build/emulator/mlf-evernodemobile.app/www/lib/ionic/js/angular-ui/angular-ui-router.min.js",
-        "/Users/Melanie/Documents/Code/mlf-evernodemobile/www/js/controllers.js"
+        "/Users/Melanie/Documents/Code/mlf-evernodemobile/www/js/controllers.js",
+        "/Users/Melanie/Documents/Code/mlf-evernodemobile/platforms/ios/build/device/mlf-evernodemobile.app/www/lib/ionic/js/ionic.min.js"
     ]
 }

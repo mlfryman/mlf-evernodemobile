@@ -2,12 +2,12 @@
 <widget id="com.ionicframework.mlfevernodemobile238326" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>mlf-evernodemobile</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Evernode Mobile Companion App
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
+  <author email="Melanie L. Fryman" href="melanie@fryman.io">
       Ionic Framework Team
     </author>
-  <content src="http://192.168.11.66:5500" original-src="index.html"/>
+  <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>

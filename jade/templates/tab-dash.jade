@@ -1,0 +1,9 @@
+html
+  body
+    ion-view(title='Dashboard')
+      ion-content.padding
+        h1 Dashboard
+        a.item.item-avatar(href='#')
+          img(ng-src='{{rootuser.avatar}}')
+          h2 {{rootuser.username}}
+          p Notes: {{count}}
