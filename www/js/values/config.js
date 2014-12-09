@@ -2,5 +2,6 @@
   'use strict';
 
   angular.module('starter')
-  .value('origin', 'http://localhost:8080');
+  // can also run on local host http://localhost:8080
+  .value('origin', 'http://pacific-tundra-7784.herokuapp.com');
 })();

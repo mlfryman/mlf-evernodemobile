@@ -3,7 +3,7 @@ html
     ion-view(title='Dashboard')
       ion-content.padding
         h1 Dashboard
-        a.item.item-avatar(href='#')
+        a.item.item-avatar(ng-click='logout()', ng-show='rootuser')
           img(ng-src='{{rootuser.avatar}}')
           h2 {{rootuser.username}}
           p Notes: {{count}}
