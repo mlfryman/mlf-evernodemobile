@@ -2,10 +2,11 @@
 <html>
   <body>
     <ion-view title="Notes">
-      <ion-content>
-        <ion-list>
-          <ion-item ng-repeat="note in notes" type="item-text-wrap" href="#/tab/note/{{note.id}}">{{note.title}}</ion-item>
-        </ion-list>
+      <ion-content class="padding">
+        <h1>Notes</h1>
+        <ul class="list">
+          <li ng-repeat="note in notes" type="item-text-wrap" href="#/tab/note/{{note.id}}" class="item">{{note.title}}</li>
+        </ul>
       </ion-content>
     </ion-view>
   </body>

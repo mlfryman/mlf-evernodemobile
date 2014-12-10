@@ -1,0 +1,13 @@
+ion-view(title='{{note.title}}')
+  ion-content(has-header='true', padding='true')
+    .list.card
+      button.button.button-calm(ng-click='snap()') Take Photo
+      button.button.button-calm(ng-click='choose()') Choose Photo
+      h4 {{moment(note.updated_at).format('MMMM Do YYYY @ h:mm:ss a')}}
+
+      .item.item-body
+        p {{note.body}}
+
+      item.item-image(ng-repeat='url in note.urls')
+        img(ng-src='{{url}}')
+        p &nbsp;

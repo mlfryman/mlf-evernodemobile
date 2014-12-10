@@ -1,0 +1,16 @@
+
+<ion-view title="{{note.title}}">
+  <ion-content has-header="true" padding="true">
+    <div class="list card">
+      <button ng-click="snap()" class="button button-calm">Take Photo</button>
+      <button ng-click="choose()" class="button button-calm">Choose Photo</button>
+      <h4>{{moment(note.updated_at).format('MMMM Do YYYY @ h:mm:ss a')}}</h4>
+      <div class="item item-body">
+        <p>{{note.body}}</p>
+      </div>
+      <item ng-repeat="url in note.urls" class="item-image"><img ng-src="{{url}}">
+        <p>&nbsp;</p>
+      </item>
+    </div>
+  </ion-content>
+</ion-view>
