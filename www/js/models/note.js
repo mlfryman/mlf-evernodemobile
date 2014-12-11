@@ -16,6 +16,10 @@
       return $http.get(origin + '/notes/' + noteId);
     }
 
-    return {count:count, query:query, show:show};
+    function mobileupload(noteId, b64){
+      return $http.post(origin + '/notes/mobileupload', {noteId:noteId, b64:b64});
+    }
+
+    return {count:count, query:query, show:show, mobileupload:mobileupload};
   });
 })();
